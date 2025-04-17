@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "d4e5fd0d-2871-4e7b-91fd-cfdc9f955a5d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39609651"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/utilisateurs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nom\": \"Eya\",\r\n  \"email\": \"eya@example.com\",\r\n  \"mot_de_passe\": \"motdepasse123\",\r\n  \"role\": \"admin\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/utilisateurs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"utilisateurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
